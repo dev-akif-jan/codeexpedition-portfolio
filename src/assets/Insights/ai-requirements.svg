@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f5f3ff"/>
+      <stop offset="100%" stop-color="#ede9fe"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="200" y1="50" x2="200" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#glow)"/>
+
+  <!-- Requirements Text -->
+  <rect x="40" y="40" width="140" height="220" rx="8" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <rect x="60" y="60" width="100" height="8" rx="4" fill="#8b5cf6" fill-opacity="0.3"/>
+  <rect x="60" y="80" width="80" height="8" rx="4" fill="#8b5cf6" fill-opacity="0.2"/>
+  <rect x="60" y="100" width="90" height="8" rx="4" fill="#8b5cf6" fill-opacity="0.2"/>
+  <rect x="60" y="130" width="100" height="8" rx="4" fill="#8b5cf6" fill-opacity="0.3"/>
+  <rect x="60" y="150" width="70" height="8" rx="4" fill="#8b5cf6" fill-opacity="0.2"/>
+  <rect x="60" y="170" width="85" height="8" rx="4" fill="#8b5cf6" fill-opacity="0.2"/>
+
+  <!-- AI Processing -->
+  <path d="M200 150 L220 150 L220 130 L240 150 L220 170 L220 150" fill="#8b5cf6"/>
+
+  <!-- Code Output -->
+  <rect x="260" y="40" width="140" height="220" rx="8" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <rect x="280" y="60" width="100" height="8" rx="4" fill="#6366f1"/>
+  <rect x="280" y="80" width="80" height="8" rx="4" fill="#6366f1" fill-opacity="0.7"/>
+  <rect x="290" y="100" width="70" height="8" rx="4" fill="#6366f1" fill-opacity="0.7"/>
+  <rect x="290" y="120" width="60" height="8" rx="4" fill="#6366f1" fill-opacity="0.7"/>
+  <rect x="280" y="150" width="90" height="8" rx="4" fill="#6366f1"/>
+  <rect x="290" y="170" width="70" height="8" rx="4" fill="#6366f1" fill-opacity="0.7"/>
+  <rect x="290" y="190" width="60" height="8" rx="4" fill="#6366f1" fill-opacity="0.7"/>
+
+  <!-- Sparkles -->
+  <circle cx="220" cy="150" r="20" fill="#8b5cf6" fill-opacity="0.1"/>
+  <path d="M220 140 L220 160 M210 150 L230 150" stroke="#8b5cf6" stroke-width="2"/>
+  <circle cx="220" cy="150" r="3" fill="#8b5cf6"/>
+</svg> 
