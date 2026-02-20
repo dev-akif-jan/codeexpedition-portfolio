@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import Careers from './pages/Careers';
 
-import Homepage from './pages/Homepage';
+import Homepage from './pages/HomePage';
 import SuccessStories from './pages/SuccessStories';
 
 import SuccessSection from './components/commonSection/SuccessSection';
